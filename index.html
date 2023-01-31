@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        background-color: #a86348;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+        position: fixed;
+        top: 25vh;
+        left: 37vw;
+      }
+
+      .rotate {
+        animation: rotation 5s infinite linear;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
+    <title>Miso Salmon</title>
+  </head>
+  <body>
+    <img src="/images/miso-salmon.png" class="rotate" alt="Miso Salmon" />
+  </body>
+</html>
