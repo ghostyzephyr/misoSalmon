@@ -1,2 +1,2 @@
-# misoSalmon
-Miso and Salmon
+# Miso & Salmon
+Are you feeling unwell? Eat miso & salmon.
